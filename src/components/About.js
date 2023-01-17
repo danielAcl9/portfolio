@@ -7,6 +7,8 @@ export default function About(){
     return(
         <div>
             <h1>----- About -----</h1>
+
+            {/* Comentarios para el github, veamos si puedo */}
             <h1>About me</h1>
 
             <img
