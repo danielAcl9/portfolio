@@ -9,6 +9,10 @@ export default function About(){
             <h1>----- About -----</h1>
 
             {/* Comentarios para el github, veamos si puedo */}
+            {/* Comentarios para el github, veamos si puedo */}
+            {/* Comentarios para el github, veamos si puedo */}
+            {/* Comentarios para el github, veamos si puedo */}
+            
             <h1>About me</h1>
 
             <img
