@@ -11,6 +11,7 @@ export default function Footer(){
                     <img 
                         src={imgLogo}
                         alt=""
+                        className="footer--logo"
                     />
                 </a>
 

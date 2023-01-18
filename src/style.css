@@ -168,6 +168,7 @@ nav .header--logo {
 
 .about--container {
     display: flex;
+    margin-bottom: 110px;
 }
 
 .about--title {
@@ -176,6 +177,9 @@ nav .header--logo {
 
 .about--text {
     color: #5B5B5B;
+    font-size: 20px;
+    margin: 0px 35px 0px 17px;
+    padding-top: 50px;
 }
 
 .about--img{
@@ -187,28 +191,27 @@ nav .header--logo {
 }
 
 .about--cvbutton {
-    box-sizing: border-box;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
-    width: 350px;
-    height: 100px;
-    left: 280px;
-    top: 643px;
+    width: 273px;
+    height: 78px;
 
     background: #313031;
     border-radius: 30px;
 
     text-decoration: none;
     gap: 8px;
+
+    padding-left: 30px;
+    margin: auto;
 }
 
 .about--cvbutton > img {
-    width: 44px;
-    height: 44px;
+    width: 34px;
+    height: 34px;
 
     flex: none;
     order: 0;
@@ -222,7 +225,7 @@ nav .header--logo {
 
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 25px;
     line-height: 48px;
 
     color: #FFFFFF;
@@ -232,14 +235,17 @@ nav .header--logo {
     flex-grow: 0;
 }
 
+/* ----- Projects ----- */
 
-/* Contenedores */
+.projects--title {
+    text-align: center;
+}
 
 .projects--container {
     width: 100%;
     display: flex;
-    max-width: 1200px;
-    max-height: 1000px;
+    max-width: 1000px;
+    max-height: 900px;
     margin: auto;
 
 }
@@ -247,7 +253,7 @@ nav .header--logo {
 .projects--card {
     width: 100%;
     margin: 10px;
-    border-radius: 6px;
+    border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     transition: all 400ms ease;
@@ -295,17 +301,28 @@ nav .header--logo {
 /* ----- Footer ----- */
 
 footer {
-    margin-top: 20px;
-    padding-top: 20px;
-    background-color: #D2D2D2;
+    margin-top: 40px;
+    padding: 20px 0px;
+    /* background-color: #D2D2D2; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    bottom: 0;
+    left: 0; 
+}
+
+.footer--logo {
+    padding-top: 10px;
 }
 
 .footer--icon{
-    width: 44px;
-    
+    width: 24px;
+    margin: 10px 10px;
+}
+
+footer > p {
+    font-size: 15px;
+    margin: auto;
 }
 
 

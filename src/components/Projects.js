@@ -7,8 +7,7 @@ import imgWindow from "../images/window.svg"
 export default function Projects(){
     return(
         <div>
-            <h1>----- Proyectos -----</h1>
-            <h1>Projects</h1>
+            <h1 className="projects--title">Projects</h1>
 
             <div className="projects--container">
                 <div className="projects--card">
@@ -18,7 +17,7 @@ export default function Projects(){
                     <div className="content">
 
                         <h3>Animedoro Timer</h3>
-                        <p>A variation of the Pomodoro technique</p>
+                        <p>A variation of the Pomodoro technique.</p>
                         <p className="sub">React.js</p>
 
                         <a href="https://github.com/" target="_blank" rel="noreferrer">

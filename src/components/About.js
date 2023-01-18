@@ -18,26 +18,13 @@ export default function About(){
                 <div className="about--text">
                     <p>I am currently a fourth year Systems Engineering student. 
                         I have great interest in front-end development, UI Design 
-                        and Data Science 
+                        and Data Science.
                     </p>
-                    <p>Some of the technologies I’ve worked with are:</p>
+                    <p>Some of the technologies I’ve worked with are Python, React.js, Javascript, Java and HTML&CSS.</p>
 
-                    <div>
-                        <ul className="about--list1">
-                            <li>Python</li>
-                            <li>React.js</li>
-                            <li>Javascript</li>
-                        </ul>
-
-                        <ul className="about--list2">
-                            <li>HTML&CSS</li>
-                            <li>Java</li>
-                        </ul>
-                    </div>
-
-                    <p>Outside of CompSci work, I have always loved drawing and 
+                    <p>Outside of Computer Science work, I have always loved drawing and 
                         illustration. Also I’m interested in research, language 
-                        learning, books, film making, photography and productivity.
+                        learning, books, film-making, photography and productivity.
                     </p>
 
                     <div>
