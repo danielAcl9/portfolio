@@ -18,7 +18,7 @@ export default function Footer(){
                 {/* Barra baja de logos */}
                 <div className="footer--logos">
                     
-                    <a href="mailto: dafeamca99@gmail.com">
+                    <a href="mailto: daniel.amado052@gmail.com">
                         <img
                             src={imgMail}
                             alt="Logo correo"
@@ -26,7 +26,7 @@ export default function Footer(){
                         />
                     </a>
 
-                    <a href="https://github.com/">
+                    <a href="https://github.com/danielAcl9" target="_blank" rel="noreferrer">
                         <img
                             src={imgGit}
                             alt="Logo Github"
@@ -34,7 +34,7 @@ export default function Footer(){
                         />
                     </a>
 
-                    <a href="https://www.linkedin.com/feed/">
+                    <a href="https://www.linkedin.com/in/damado2303/" target="_blank" rel="noreferrer">
                         <img
                             src={imgLinkedIn}
                             alt="Logo linkedin"

@@ -23,7 +23,6 @@ export default function Header() {
                         <a href="Home.js">Home</a>
                         <a href="About.js">About Me</a>
                         <a href="Projects.js">Projects</a>
-                        <a href="Footer.js">Contact</a>
                     </ul>
                 </div>
             </nav>

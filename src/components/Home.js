@@ -11,7 +11,7 @@ export default function Home(){
         <div className="home--content">
              {/* Barra lateral de logos */}
             <div className="home--sidebar">
-                <a href="mailto: dafeamca99@gmail.com">
+                <a href="mailto: daniel.amado052@gmail.com">
                     <img
                         src={imgMailHome}
                         alt=""
@@ -19,7 +19,7 @@ export default function Home(){
                         />
                     </a>
 
-                <a href="https://github.com/">
+                <a href="https://github.com/danielAcl9" target="_blank" rel="noreferrer">
                     <img
                         src={imgGit}
                         alt="Logo Github"
@@ -27,7 +27,7 @@ export default function Home(){
                     />
                 </a>
 
-                <a href="https://www.linkedin.com/feed/">
+                <a href="https://www.linkedin.com/in/damado2303/" target="_blank" rel="noreferrer">
                     <img
                         src={imgLinkedIn}
                         alt="Logo linkedin"
@@ -54,7 +54,7 @@ export default function Home(){
                 </div>
 
                 <div>
-                    <a href="mailto: dafeamca99@gmail.com"  className="home--button">
+                    <a href="mailto: daniel.amado052@gmail.com"  className="home--button">
                         <img src={imgMail} alt="enviar correo"/>
                         <p>Say hi!</p>
                     </a>
